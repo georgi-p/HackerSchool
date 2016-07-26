@@ -153,9 +153,6 @@ def doGET(client_socket, request_uri):
 	client_socket.close()
 	time.sleep(10)
 
-def handleRequest(client_socket):
-	
-
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 serversocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
